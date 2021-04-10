@@ -9,11 +9,12 @@ html {
 
 body {
     margin: 10rem auto;
-    width: 500px;
+    max-width: 500px;
 }
 
 ul {
     margin-bottom: 1rem;
+    font-size: 14px;
 }
 
 li {

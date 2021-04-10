@@ -116,3 +116,10 @@ function SHA256(s){
     s = Utf8Encode(s);
     return binb2hex(core_sha256(str2binb(s), s.length * chrsz));
 }
+
+// My code
+function getHashed(){
+    let hash = document.getElementById('input').value;
+    let hashed = SHA256(hash);
+    console.log(hashed);
+ }

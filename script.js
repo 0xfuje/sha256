@@ -121,5 +121,5 @@ function SHA256(s){
 function getHashed(){
     let hash = document.getElementById('input').value;
     let hashed = SHA256(hash);
-    console.log(hashed);
+    document.getElementById("output").innerHTML = hashed;
  }

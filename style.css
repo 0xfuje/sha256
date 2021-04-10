@@ -4,7 +4,7 @@
 }
 
 html {
-
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -12,11 +12,20 @@ body {
     width: 500px;
 }
 
+ul {
+    margin-bottom: 1rem;
+}
+
 li {
     list-style-type: none;
-    margin-top: .5em;
+    margin-top: .25em;
 }
 
 h1 {
+    font-weight: 900;
+    margin-bottom: 1rem;
+}
 
+p {
+    margin-top: 1rem;
 }

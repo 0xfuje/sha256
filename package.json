@@ -1,0 +1,19 @@
+{
+  "name": "sha256",
+  "version": "1.0.0",
+  "description": "SHA256 Hash function",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blockchaineddev/sha256.git"
+  },
+  "author": "blockchained.dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blockchaineddev/sha256/issues"
+  },
+  "homepage": "https://github.com/blockchaineddev/sha256#readme"
+}

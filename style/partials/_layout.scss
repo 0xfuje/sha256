@@ -1,0 +1,43 @@
+.main {
+    max-height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "list generator";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: start;
+}
+
+.container--heading {
+    grid-area: header;
+    .heading--size-big {
+        padding-left: 100px;
+    }
+}
+
+.container--list {
+    grid-area: list;
+    padding-left: 100px;
+}
+
+.container--generator {
+    grid-area: generator;
+}
+
+.container--list, .container--generator {
+    margin-top: 50px;
+}
+
+.container--output {
+    margin-top: 30px;
+}
+
+.input-field {
+    resize: none;
+    min-width: 500px;
+    min-height: 100px;
+}

@@ -119,7 +119,7 @@ function SHA256(s){
 
 // My code
 function getHashed(){
-    let hash = document.getElementById('input').value;
-    let hashed = SHA256(hash);
-    document.getElementById("output").innerHTML = hashed;
+    let input = document.getElementById('input').value;
+    let hashed = SHA256(input);
+    document.querySelector(".sha256-output").innerHTML = hashed;
  }

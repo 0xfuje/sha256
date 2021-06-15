@@ -4,24 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="../style/output.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
-    <title>SHA256 Hash function</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="../style/index.css">
+    <title>SHA256 Hash Generator</title>
 </head>
-<body>
-    <h1>SHA256 Hash Generator</h1>
-    <ul>
-        <li>The SHA256 algorithm takes an input and produces a hash value</li>
-        <li>The lenght of the hash is fixed (256-bit or 32-byte)</li>
-        <li>The SHA256 is made by the NSA (National Security Agency)</li>
-        <li>This tool allows you to generate the SHA256 hash of any string</li>
-        <li>Learn more about SHA-256 by clicking <a>here</a></li>
+<body class="container--main">
+    <h1 class="heading--size-big">SHA256 Hash<br>Generator</h1>
+    <ul class="list">
+        <li class="list--item">The SHA256 algorithm takes an input and produces a hash value</li>
+        <li class="list--item">The lenght of the hash is fixed (256-bit or 32-byte)</li>
+        <li class="list--item">The SHA256 is made by the NSA (National Security Agency)</li>
+        <li class="list--item">This tool allows you to generate the SHA256 hash of any string</li>
+        <li class="list--item">Learn more about SHA-256 by clicking <a class="link" href="#">here</a></li>
     </ul>
-    <input type="text" id="input" name="input">
-    <input type="submit" value="Submit" onclick="getHashed()">
-    <p id="output"></p>
-</body>
+    
+    <div class="container--input">
+        <h2 class="heading--size-small">Enter your text below:</h2>
+        <textarea class="input--field" type="text" id="input" name="input">
 
+        </textarea>
+    </div>
+    <div class="container--output">
+        <h2 class="heading--size-small">Get your SHA-256 Hash:</h2>
+        <p class="sha256-output"></p>
+        <input class="button" type="submit" value="CALCULATE HASH" onclick="getHashed()">
+    </div>
+</body>
 </html>

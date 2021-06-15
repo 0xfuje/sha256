@@ -1,0 +1,17 @@
+$main-color: #203E60;
+$text-color: #294A70;
+$white-color: #fff;
+$light-color: #F7F9FE;
+$link-color: #187BCD;
+
+body {
+    color: $text-color;
+}
+
+.link {
+    color: $link-color;
+}
+
+.heading--size-big, .heading--size-small {
+    color: $main-color;
+}
